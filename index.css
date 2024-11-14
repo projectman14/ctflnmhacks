@@ -1,0 +1,149 @@
+
+@font-face {
+    font-family: 'Hacked'; 
+    src: url('https://hackedfont.com/HACKED.ttf') format('truetype'); 
+}
+*::selection{
+    color: darkgreen;
+    background-color: black;
+}
+body {
+  background-color: black;
+    text-align: center;
+}
+
+.butt{
+    background-color:darkgreen;
+}
+
+.try{
+    font-family: Hacked;
+    transition:  ease 1.7s;
+}
+.sam{
+  font-family: Hacked;
+}
+.gre{
+    color:darkgreen;
+    
+    width: fit-content;
+}
+
+.heading{
+    font-family: Hacked;
+    font-size: 5rem;
+    color:darkgreen;
+}
+.spe{
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+   width: fit-content;
+  font-family: Hacked;
+    text-align: center;
+}
+
+.size{
+    font-size: 1.5rem;
+}
+
+.container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+}
+
+.jumbotron {
+    text-align: center;
+    color: white;
+}
+.typewriter h1 {
+    overflow: hidden; 
+    border-right: .1em solid darkgreen;
+    white-space: nowrap;
+    margin: 0 auto; 
+    letter-spacing: .15em; 
+    animation: 
+      typing 3.5s steps(40, end),
+      blink-caret .75s step-end infinite;
+  }
+  
+  /* The typing effect */
+  @keyframes typing {
+    from { width: 0 }
+    to { width: 47% }
+  }
+  
+  /* The typewriter cursor effect */
+  @keyframes blink-caret {
+    from, to { border-color: transparent }
+    50% { border-color: darkgreen; }
+  }
+  
+
+  @media (max-width:700px) {
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+  }
+@media (max-width: 720px) {
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }
+    body {
+      font-size: 14px;
+    }
+  }
+@media (max-width: 768px) {
+    body {
+      font-size: 14px;
+    }
+  }
+
+@media (max-width: 6.1in) and (max-height: 2.64in) {
+    body {
+      font-size: 6px;
+    }
+  
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      }  }
+@media (max-width: 280px) and (max-height: 608px) {
+    body {
+        font-size: 12px;
+    }
+    
+    .typewriter h1 {
+            width: 100%;
+    }
+}
+/* Fold - Not sorted yet*/
+@media (max-width: 280px) and (max-height: 653px) {
+    body {
+        font-size: 8px; 
+    }
+
+    .typewriter h1 {
+        width: 60%;
+    }
+
+    @keyframes typing {
+        from { width: 0 }
+        to { width: 100% }
+      } }
+
+ .bgb{
+    background: none;
+    border: none;
+    cursor: pointer;
+ }
+ .pda{
+    width: 70vw;
+    border: solid;
+ }
+
+ 
